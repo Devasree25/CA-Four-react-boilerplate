@@ -1,0 +1,190 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw; /* 100% of the viewport width */
+  overflow: hidden; /* Prevent scrolling */
+  background-color: pink;
+  
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.green-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: purple; /* Green color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 500px;
+  width: 600px;
+  position: relative;
+  right: 150px;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #09e55a;
+  padding: 20px;
+  background-color: pink;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  height: 400px;
+  width: 500px;
+  cursor: pointer;
+}
+
+.highlighted-container {
+  background-color: yellow;
+  
+}
+
+.question-box {
+  /* Additional styles for the inner question box can be added here */
+}
+
+/* Add these styles to your existing CSS file */
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.option:hover {
+  background-color: #ccc;
+}
+
+
+
+
+/* src/App.css */
+/* ... (existing styles) */
+
+
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cf1313;
+  padding: 20px;
+  background-color: #e9d6d6;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  
+}
+
+.marked {
+  color: darkblue;
+  display: inline;
+  font-weight: bold;
+}
+.hg-btn{
+  position: relative;
+  top: 200px;
+  left: 0px;
+  display: flex;
+  justify-content: space-around; 
+ 
+}
+/* src/App.css */
+/* ... (existing styles) */
+
+.dark-mode {
+  background-color: black;
+}
+
+.light-mode {
+  background-color: pink;
+}
+.mode-toggle{
+  position: relative;
+  bottom: 320px;
+  left: 700px;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.big-button {
+  font-size: 20px; /* Adjust the font size as needed */
+  padding: 10px; /* Adjust the padding as needed */
+  background-color: rgb(253, 113, 5);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Add other styles if needed */
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #f90d0d;
+  padding: 20px;
+  background-color: #e9d6d6;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  height: 400px;
+  width: 600px;
+  position: relative;
+  right: 160px;
+
+}
+
+.result-box {
+  border: 2px solid #333; /* Add a border to the result box */
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  
+  
+}
+
+.restart-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: aqua;
+  cursor: pointer;
+
+}
+.p{
+  font-size: 30px;
+}
+.quiz {
+  position: relative;
+  bottom: 300px;
+  left: 420px;
+  color: green;
+}
+
+
+.header h1 {
+  margin: 0;
+}
+
+
