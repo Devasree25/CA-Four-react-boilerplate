@@ -188,3 +188,16 @@ body {
 }
 
 
+@media (max-width: 600px) {
+  .green-container {
+    width: 100%; 
+    margin: 0; 
+  }
+
+  .question-container {
+    width: 100%; 
+  }
+
+ 
+}
+
